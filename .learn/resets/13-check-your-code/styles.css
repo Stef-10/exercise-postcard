@@ -1,6 +1,5 @@
 body {
 	background: black;
-	font-family: "Handlee", cursive;
 }
 
 * {
@@ -32,13 +31,12 @@ body {
 }
 
 .body-left p:first-child {
-	margin-top: none;
+	margin-top: 0%;
 }
 
 .body-left,
 .body-right {
-	padding: 20px;
-	width: 50%;
+	padding: 15%;
 }
 
 input {
@@ -52,23 +50,9 @@ p {
 
 .postcard-footer {
 	text-align: center;
-	padding: 15px;
 }
 
 button {
 	background-color: grey;
 	padding: 10px;
-}
-
-.body-right form {
-	width: 100%;
-}
-
-input,
-textarea {
-	width: 100%;
-	border: none;
-	border-bottom: 1px solid gray;
-	margin-bottom: 10px;
-	background: transparent;
 }
